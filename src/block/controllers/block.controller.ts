@@ -1,5 +1,5 @@
 import { Controller, Post, Delete, Param, Req } from '@nestjs/common';
-import { BlockService } from './services/block.service';
+import { BlockService } from './block/services/block.service';
 import { Request } from 'express';
 
 @Controller('block')
